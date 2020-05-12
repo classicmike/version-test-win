@@ -17,7 +17,7 @@ const runShellCmd = (cmd) => {
 };
 
 const run = () => {
-	runNpxCmd(`versions patch -m "release" -p`)
+	runNpxCmd(`versions patch -m "release _VER_" -p`)
 		.then(() => runShellCmd(`git push`))
 		.then(() => runShellCmd(`git push origin --tags`))
 		.then(() => console.info(`Success`))
