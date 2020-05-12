@@ -1,0 +1,26 @@
+{
+  "name": "version-test-win",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"publish": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classicmike/version-test-win.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/classicmike/version-test-win/issues"
+  },
+  "homepage": "https://github.com/classicmike/version-test-win#readme",
+  "devDependencies": {
+    "versions": "^8.2.8"
+  },
+  "dependencies": {
+    "node-run-cmd": "^1.0.1"
+  }
+}
